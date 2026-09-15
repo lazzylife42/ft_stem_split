@@ -1,0 +1,28 @@
+# env
+venv/
+.venv/
+.env
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# dataset (MUSDB18, jamais commité)
+data/
+!data/.gitkeep
+
+# poids de modèle
+models_weights/
+!models_weights/.gitkeep
+*.h5
+*.keras
+*.onnx
+*.tflite
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
